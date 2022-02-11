@@ -8,18 +8,30 @@
     <link rel="stylesheet" href="./conteudo/conteudo-descricao.css">
     <link rel="stylesheet" href="./conteudo/conteudo-titulo.css">
    <link rel="stylesheet" href="./conteudo/conteudo.css">
+   <link rel="stylesheet" href="./Lista/lista.css">
+   <link rel="stylesheet" href="./Lista/lista-input.css">
+   <link rel="stylesheet" href="./Lista/lista-label.css">
+   <link rel="stylesheet" href="./Lista/lista-button.css">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./normalize.css">
+   <link rel="stylesheet" href="./reset.css">
     <title>Login Site</title>
 </head>
 <body>
    <main class="conteudo">
     <div class="conteudo__apresentacao">   
-        <h2 class="conteudo__titulo">Bem vindo a nossa pagina!</h2>
-        <p class="conteudo__descricao">Preencha nosso formuláio para se cadastrar</p>
+        <h2 class="conteudo__titulo">Bem vindo !</h2>
+        <p class="conteudo__descricao">Preencha nosso formulário para se cadastrar</p>
     </div>    
        <ul>
-           <li>
-               <label for="email" class="label">Email</label>
-               <input type="email" class="input" required placeholder="seu@email.com" >
+           <li class="lista">
+               <label for="email" class="lista__label" >Email</label>
+               <input type="email" class="lista__input" required placeholder="seu@email.com"  >
+
+               <label for="password" class="lista__label">Senha</label>
+               <input type="password" class="lista__input" required placeholder="Digite sua Senha" >
+
+               <button class="lista__button">Enviar</button>
            </li>
        </ul>
    </main>

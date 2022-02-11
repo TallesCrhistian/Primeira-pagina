@@ -1,9 +1,6 @@
 .conteudo{
-    background-color: blue;
+    display: block;
     text-align: center;
-    width: 50%;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 300px ;
-    border-radius: 50px;
+    background-color: aliceblue;
+    flex-direction: column;
 }

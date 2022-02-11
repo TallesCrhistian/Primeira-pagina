@@ -1,0 +1,13 @@
+.lista__button{
+    align-items: center;
+    background-color: rgb(216, 25, 0);
+    display: inline-block;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+
+
+}

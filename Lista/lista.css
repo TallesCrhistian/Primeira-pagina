@@ -1,0 +1,7 @@
+.lista{
+    background-color: aliceblue;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
