@@ -1,6 +1,6 @@
 .conteudo{
     display: block;
     text-align: center;
-    background-color: aliceblue;
+    background-color: blue;
     flex-direction: column;
 }
