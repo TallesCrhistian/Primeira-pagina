@@ -1,6 +1,6 @@
 .lista{
     align-items: center;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     margin: 15px auto;
