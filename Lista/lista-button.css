@@ -1,13 +1,16 @@
 .lista__button{
     align-items: center;
     background-color: rgb(255, 0, 0);
-    display: inline-block;
+    display: flex;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 200px;
+
+}
+.button__descricao{
+    margin: 5px auto;
+    font-size: 15px;
     font-weight: bold;
     font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 30px 30px;
-    text-align: center;
-    text-decoration: none;
-
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }

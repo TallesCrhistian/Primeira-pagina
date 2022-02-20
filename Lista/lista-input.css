@@ -1,5 +1,5 @@
 .lista__input{
-    display: inline;
-    margin-bottom: 15px;
-    width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    width: 82%;
 }
