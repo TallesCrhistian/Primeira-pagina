@@ -1,0 +1,8 @@
+.conteudo__box{
+   border-radius: 200px;
+   background-image: linear-gradient(to top, blue, white);
+   margin: auto auto;
+   margin-top: 100px;
+   width: 40%;
+   
+}

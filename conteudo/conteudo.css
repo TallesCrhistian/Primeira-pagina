@@ -1,6 +1,7 @@
 .conteudo{
-    display: block;
+    display: flex;
     text-align: center;
-    background-color: rgb(255, 255, 255);
     flex-direction: column;
+    background-image: linear-gradient(to top, white, blue);
+    width: 100%;
 }
